@@ -25,7 +25,9 @@ if ( !defined('ABSPATH') ) {
 	/** Set up WordPress environment */
 	require_once( dirname( __FILE__ ) . '/wp-load.php' );
 }
-
+// if (!= defined('ABSPATH')) {
+//	  require_once (); 
+ //}
 /**
  * Retrieves the cron lock.
  *
